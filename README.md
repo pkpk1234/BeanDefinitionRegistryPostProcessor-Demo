@@ -114,9 +114,14 @@ public class PersonBeanDefinitionRegistryPostProcessor
 完整代码：https://github.com/pkpk1234/BeanDefinitionRegistryPostProcessor-Demo
 
 官方例子：
-[ConfigurationClassPostProcessor][3]
+Spring [ConfigurationClassPostProcessor][3]
+
+Spring Cloud [RefreshAutoConfiguration][4] [GenericScope][5]
 
 
   [1]: https://zhuanlan.zhihu.com/p/30070328
   [2]: https://zhuanlan.zhihu.com/p/30123517
   [3]: https://github.com/spring-projects/spring-framework/blob/5f4d1a4628513ab34098fa3f92ba03aa20fc4204/spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassPostProcessor.java
+  [4]: https://github.com/spring-cloud/spring-cloud-commons/blob/b40ceef356aa79ea2090eab792c2c60a1ce24a62/spring-cloud-context/src/main/java/org/springframework/cloud/autoconfigure/RefreshAutoConfiguration.java
+  [5]: https://github.com/spring-cloud/spring-cloud-commons/blob/ccf613c29ce8ece7620fe5311c0a972d0dceadf6/spring-cloud-context/src/main/java/org/springframework/cloud/context/scope/GenericScope.java
+  
